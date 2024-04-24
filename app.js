@@ -21,36 +21,24 @@
 //     }
 // }
     
-var city = prompt("Enter Your City Name");
-city = city.toLowerCase();
-var arr = ["karachi", "lahore", "islamabad", "quetta"];
-var cityFound = false;
+// var city = prompt("Enter Your City Name");
+// city = city.toLowerCase();
+// var arr = ["karachi", "lahore", "islamabad", "quetta"];
+// var cityFound = false;
 
-for (var i = 0; i < arr.length; i++) {
-    if (arr[i] === city) {
-        cityFound = true;
-        break;
-    }
-}
+// for (var i = 0; i < arr.length; i++) {
+//     if (arr[i] === city) {
+//         cityFound = true;
+//         break;
+//     }
+// }
 
-if (cityFound) {
-    alert("City is found");
-} else {
-    alert("City Not Found");
-}
+// if (cityFound) {
+//     alert("City is found");
+// } else {
+//     alert("City Not Found");
+// } 
 
 
 
 // date
-//  date = new Date();
-//  year = date.getFullYear();
-//  day = date.getDay();
-//  hour = date.getHours();
-//  month = date.getMonth();
-//  second = date.getSeconds();
-// document.write(date)
-// document.write(year)
-// document.write(day)
-// document.write(hour)
-// document.write(month)
-// document.write(second)
